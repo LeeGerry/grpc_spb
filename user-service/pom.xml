@@ -8,20 +8,13 @@
         <artifactId>grpc_spb</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <artifactId>user-service</artifactId>
-
-    <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         <dependency>
             <groupId>net.devh</groupId>
             <artifactId>grpc-server-spring-boot-starter</artifactId>
-            <version>2.9.0.RELEASE</version>
+            <version>2.14.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
